@@ -1,0 +1,16 @@
+body {
+    background: url(../images/tcb.jpg) no-repeat center center fixed;
+    background-size:cover
+}
+
+.branded-button {
+    background-color: #094fa3;
+    border-color:#0c0e91
+}
+
+.secondary-button {
+    background-color: #d8d4d5;
+    border-color: #6e7271;
+    color: #6e7271
+}
+
