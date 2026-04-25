@@ -1,77 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>TCB Online Bank Login</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-  <link rel="stylesheet" href="css/index.css">
-  <link id="brandstyle" rel="stylesheet" href="css/background.css">
-  <link id="favicon" rel="shortcut icon" type="image/png" href="images/favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estudiabantes F.C. – Sitio Oficial</title>
+  <link rel="icon" type="image/jpeg" href="images/Logo.JPG" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+<body>
 
-<body id="body">
-    <header class="page-row"></header>
-    <section class="main page-row page-row-extended">
-        <form method="POST" id="form1">
-            <div class="content">
+<nav>
+  <a href="index.html" class="nav-logo">
+    <img src="images/LogoAmarilloAsset.png" alt="Escudo Estudiabantes FC" class="nav-logo-emblem" />
+    <span class="nav-logo-text">ESTUDIA<span>BANTES</span></span>
+  </a>
+  <ul>
+    <li><a href="comunicados.html">Comunicados</a></li>
+    <li><a href="noticias.html">Noticias</a></li>
+    <li><a href="plantilla.html">Plantilla</a></li>
+  </ul>
+</nav>
 
-                <img src="images/tcb-logo.png" id="brandImage" class="brand" alt="Logo">
-        
-                <div class="section">
-                    
-                    <div class="col span_1_of_5"></div>
-                    <div class="col span_3_of_5">
-                    
-                        
-        
-        <span id="ContentBody_LabelUsername" class="label-medium">Username</span>
-        <input name="TextBoxUsername" type="text" id="ContentBody_TextBoxUsername" class="user-input" autocomplete="off" placeholder="Username">
-        <span id="ContentBody_CustomValidatorUsername" class="error-message" style="display:none;">Please enter your username.</span>
-        
-        
-        <span id="ContentBody_LabelUsername" class="label-medium">Password</span>
-        <input name="TextBoxUsername" type="password" id="ContentBody_TextBoxUsername" class="user-input" autocomplete="off" placeholder="Password">
-        
-        
-        <input type="submit" name="ButtonLogin" value="Login" onclick="login()" id="ButtonLogin" class="rounded-button branded-button">                
-                        <div class="havingissues">
-                            <a href="https://securelogin.texascapitalbank.com/ForgotPassword/ForgotPassword.aspx" id="HavingIssues_forgotPasswordLink" class="login-content float-left">Forgot Password?</a>
-                            <div class="clear"></div>
-                            <div class="issuesanddisclosures">Having Issues? <span id="HavingIssues_contactus"><a href="tel:18778392265" target="_blank">877.839.2265</a></span> <br> <a href="http://www.texascapitalbank.com/account-security-disclosures.html" id="HavingIssues_disclosures" target="_blank">Disclosures &amp; Privacy</a></div>
-                        </div>
-                        
-                    
-                    </div>
-                    <div class="col span_1_of_5">
-                    <div class="clear"></div>
-                    </div>
-                    
-                </div>
-            </div>
-        </form>
-       
-    
-        <div id="PanelAd" class="ad">
-            <a href="https://www.texascapitalbank.com/insights-resources/helpful-resources/fraud-protection" target="_blank">
-                <img src="images/1.png">
-            </a>            
-            <img src="images/2.png">
-        </div>
-    </section>
+<div class="hero">
+  <div class="hero-glow"></div>
+  <img src="images/LogoAmarilloAsset.png" alt="Escudo Estudiabantes FC" class="hero-badge" />
+  <div class="hero-tag">Zapopan, Jalisco</div>
+  <h1>ESTUDIA<span class="gold">BANTES</span><br>F.C.</h1>
+  <p class="hero-sub">El club donde el balón rueda, aunque el ánimo ande cojo.</p>
+  <div class="hero-divider"></div>
+  <div class="hero-stat-row">
+    <div class="hero-stat"><strong>2017</strong><span>Fundación</span></div>
+    <div class="hero-stat"><strong>1★</strong><span>Campeonatos</span></div>
+    <div class="hero-stat"><strong>∞</strong><span>Excusas</span></div>
+  </div>
+</div>
 
-    <footer class="section gray-text page-row">
+<footer>
+  <div class="footer-logo">ESTUDIA<span>BANTES</span> F.C.</div>
+  <p>Zapopan, Jalisco · Todos los derechos reservados (o los que haya)</p>
+</footer>
 
-		<div class="inside-footer">
-			<label id="copyright">COPYRIGHT © 2003 - 2021 TEXAS CAPITAL BANCSHARES, INC. ALL RIGHTS RESERVED. TEXAS CAPITAL BANCSHARES, INC. TEXAS CAPITAL BANK AND THE TEXAS CAPITAL BANK LOGO ARE TRADEMARKS OF TEXAS CAPITAL BANCSHARES, INC.<span class="float-right">Member FDIC</span></label>
-		</div>
-
-	</footer>
-   
-
-    <script type="text/javascript">
-        function login(){
-            window.alert("YOU'VE BEEN HACKED");
-        }
-    </script>
 </body>
+</html>
